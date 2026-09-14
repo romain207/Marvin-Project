@@ -1,4 +1,5 @@
-# IA-Project
+# Cahier des Charges
+
 
 https://docs.google.com/document/d/1DfPiCS0AftSH8WQZmn9KRLNtcwEUJxgw4JfUyD2IsZM/edit?usp=sharing (modèle 1 selon le document exemple)
 
