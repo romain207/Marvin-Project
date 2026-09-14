@@ -26,22 +26,3 @@ Son objectif principal est d'évoluer sur un terrain de $3\text{ m} \times 2\tex
 
 ---
 
-## 🛠️ Architecture du Dépôt
-
-```text
-├── src/
-│   └── fr/uga/pix/
-│       ├── Main.java              # Point d'entrée & Machine à états
-│       ├── net/
-│       │   └── UDPPaletReceiver.java # Thread d'écoute UDP (Port 8888)
-│       ├── hardware/
-│       │   ├── MotorsController.java # Gestion propulsion et odométrie
-│       │   ├── LineFollower.java     # Suivi de ligne P/PID (Capteur couleur)
-│       │   └── Grabber.java          # Contrôle pince & capteur ultrasons
-│       └── model/
-│           └── Palet.java            # Modèle de données (ID, X, Y)
-├── docs/
-│   ├── Cahier_des_Charges.pdf    # Cahier des charges du projet
-│   └── Architecture.png          # Schéma de l'architecture logicielle
-├── build.xml                     # Script Ant pour compilation leJOS
-└── README.md                     # Documentation d'accueil du projet
