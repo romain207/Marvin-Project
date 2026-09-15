@@ -5,17 +5,3 @@ Observations:
 - Une seule roue fonctionne lors de la rotation ??
 - Soucis pour fermer la pince au max: résolu la vitesse du petit moteur a une plus grosse limite que celle du grand moteur
 
-<details>
-<summary><b>📅 Voir le journal de bord (Semaines 1 & 2)</b></summary>
-
-### Semaine 1
-* **Fait :** Présentation de Pix et première configuration matérielle/logicielle.
-
-### Semaine 2
-* **Fait :** Configuration terminée, lancement des premiers programmes de test.
-* **Observations :**
-  * Vitesse maximale bridée autour de `700 deg/s`.
-  * Comportement de rotation sur une seule roue à corriger.
-  * **Problème de pince résolu :** limite de vitesse adaptée au moteur moyen.
-
-</details>
