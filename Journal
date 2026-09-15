@@ -8,16 +8,14 @@ Observations:
 <details>
 <summary><b>📅 Voir le journal de bord (Semaines 1 & 2)</b></summary>
 
-<br>
+### Semaine 1
+* **Fait :** Présentation de Pix et première configuration matérielle/logicielle.
 
-#### Semaine 1
-- **Fait :** Présentation de Pix et première configuration matérielle/logicielle.
-
-#### Semaine 2
-- **Fait :** Configuration terminée, lancement des premiers programmes de test.
-- **Observations :**
-  - Vitesse maximale bridée autour de 700 deg/s.
-  - Comportement de rotation sur une seule roue à corriger.
-  - *Problème de pince résolu :* limite de vitesse adaptée au moteur moyen.
+### Semaine 2
+* **Fait :** Configuration terminée, lancement des premiers programmes de test.
+* **Observations :**
+  * Vitesse maximale bridée autour de `700 deg/s`.
+  * Comportement de rotation sur une seule roue à corriger.
+  * **Problème de pince résolu :** limite de vitesse adaptée au moteur moyen.
 
 </details>
