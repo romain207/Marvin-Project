@@ -32,7 +32,7 @@
 
 ### Gestion des Erreurs de Manipulation
 - [ ] **Capture ratée :** Que faire si la pince se ferme mais que le robot a raté le palet ?
-  > **Décision :
+  > **Décision :**
 - [ ] **Perte en route :** Que doit faire le robot s'il fait tomber le palet pendant le trajet vers la zone de dépôt (l'abandonner, essayer de le reprendre) ?
   > **Décision :**
 - [ ] **Perte de trajectoire :** Que se passe-t-il si le robot perd la ligne au sol pendant son déplacement ?
