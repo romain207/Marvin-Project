@@ -9,3 +9,7 @@ Configuration terminée, lancement de petits programmes pour tester
 - Une seule roue fonctionne lors de la rotation ??
 - Soucis pour fermer la pince au max: résolu la vitesse du petit moteur a une plus grosse limite que celle du grand moteur
 
+## Semaine 3
+Centralisation des documents internes présents sur les autres branches dans le main :
+branches "cahier-des-charges" et "cahier-de-bord" (supprimées suite au regroupement).
+
