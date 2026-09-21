@@ -12,5 +12,5 @@ Configuration terminée, lancement de petits programmes pour tester
 ## Semaine 3
 Centralisation des documents internes présents sur les autres branches dans le main :
 branches "cahier-des-charges" et "cahier-de-bord" (supprimées suite au regroupement).
-- Observations du jour: angle de rotation de PIX: tour complet: angle 840° (en degrès de PIX :)) 
+- Observations du jour: angle de rotation de PIX: tour complet: angle 840° (en degrès de PIX ) 
 
