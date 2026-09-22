@@ -17,5 +17,5 @@ branches "cahier-des-charges" et "cahier-de-bord" (supprimées suite au regroupe
 - capteurs ultrasons: fonctionne et renvoie une série de valeur
 - capteur lumière: reconnait les couleurs du terrain (rouge, jaune, vert, blanc, noir, bleu)
 - les pinces: problème de fermeture (pour l'instant)
-- modifier le github (voir détail avec romain)
+- modification de Github (réorganisation des dossiers)
 
