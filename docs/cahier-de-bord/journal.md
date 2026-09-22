@@ -13,7 +13,7 @@ Configuration terminée, lancement de petits programmes pour tester
 Centralisation des documents internes présents sur les autres branches dans le main :
 branches "cahier-des-charges" et "cahier-de-bord" (supprimées suite au regroupement).
 - Observations du jour: angle de rotation de PIX: tour complet: angle 840° (en degrès de PIX )
-- découverte de nouvelles stratégies pour récupérer au plus vite les premiers palet particulièrement le premier (lui demander pour plus de détails... à Romain)
+- découverte de nouvelles stratégies pour récupérer au plus vite les premiers palets, particulièrement le premier (mise en place d'un circuit prédéfini pour les premiers palets)
 - capteurs ultrasons: fonctionne et renvoie une série de valeur
 - capteur lumière: reconnait les couleurs du terrain (rouge, jaune, vert, blanc, noir, bleu)
 - les pinces: problème de fermeture (pour l'instant)
