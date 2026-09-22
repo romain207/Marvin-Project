@@ -1,1 +1,27 @@
+Test pour faire tourner PIX sur lui-même
 
+// déclaration attributs représentant les deux roues
+	private EV3LargeRegulatedMotor roueG;
+	private EV3LargeRegulatedMotor roueD;
+
+	// initialisation des attributs dans le constructeur
+	public Mouvements() {
+		roueG= new EV3LargeRegulatedMotor(MotorPort.B);
+		roueD= new EV3LargeRegulatedMotor(MotorPort.C); 
+	}
+
+// méthode pour tourner à gauche
+public void tournerAdroite() {
+		roueG.rotate(840, true); 
+		roueD.rotate(-840);
+
+	}
+// méthode pour tourner à droite
+public void tournerAgauche() {
+		roueG.rotate(-840, true); 
+		roueD.rotate(840);
+	}
+
+// À mettre dans le main pour tester
+Mouvements mouv = new Mouvements();
+mouv.tournerAgauche();
