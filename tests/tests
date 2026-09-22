@@ -1,5 +1,8 @@
 Test pour faire tourner PIX sur lui-même
 
+import lejos.hardware.motor.EV3LargeRegulatedMotor;
+import lejos.hardware.port.MotorPort;
+
 // déclaration attributs représentant les deux roues
 	private EV3LargeRegulatedMotor roueG;
 	private EV3LargeRegulatedMotor roueD;
