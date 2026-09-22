@@ -16,13 +16,13 @@ public class Tourner {
 		roueD= new EV3LargeRegulatedMotor(MotorPort.C); 
 	}
 
-// méthode pour tourner à gauche
+// méthode pour tourner à droite
 public void tournerAdroite() {
 		roueG.rotate(840, true); 
 		roueD.rotate(-840);
 	}
 
-// méthode pour tourner à droite
+// méthode pour tourner à gauche
 public void tournerAgauche() {
 		roueG.rotate(-840, true); 
 		roueD.rotate(840);
