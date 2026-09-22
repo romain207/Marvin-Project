@@ -1,7 +1,10 @@
+```java
 Test pour faire tourner PIX sur lui-même
 
 import lejos.hardware.motor.EV3LargeRegulatedMotor;
 import lejos.hardware.port.MotorPort;
+
+public class Tourner {
 
 // déclaration attributs représentant les deux roues
 	private EV3LargeRegulatedMotor roueG;
@@ -17,14 +20,18 @@ import lejos.hardware.port.MotorPort;
 public void tournerAdroite() {
 		roueG.rotate(840, true); 
 		roueD.rotate(-840);
-
 	}
+
 // méthode pour tourner à droite
 public void tournerAgauche() {
 		roueG.rotate(-840, true); 
 		roueD.rotate(840);
 	}
+}
 
-// À mettre dans le main pour tester
+public static void main(String[] args) {
+
 Mouvements mouv = new Mouvements();
 mouv.tournerAgauche();
+}
+```
