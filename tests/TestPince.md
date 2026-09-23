@@ -26,6 +26,6 @@ public class MouvPince extends java.lang.Object {
 		
 	}
 
-```
 }
+```
 
