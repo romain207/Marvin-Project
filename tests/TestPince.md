@@ -1,5 +1,5 @@
 ```java
-// Test incomplet pour attraper un palet 
+// Test pas encore bien opérationnel pour attraper un palet 
 
 import lejos.hardware.motor.EV3MediumRegulatedMotor;
 import lejos.hardware.port.MotorPort;
