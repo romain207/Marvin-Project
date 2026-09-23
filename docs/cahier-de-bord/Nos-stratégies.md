@@ -1,7 +1,7 @@
 ## 📋 Nos Tâches Principales
 
 ### Mouvements de base
-- [ ] Faire avancer, reculer et tourner le robot de manière précise.
+- [X] Faire avancer, reculer et tourner le robot de manière précise.
 - [ ] Programmer le suivi de la ligne au sol.
 
 ### Interaction avec les palets
@@ -11,7 +11,7 @@
 - [ ] Déposer proprement le palet dans la zone d'arrivée.
 
 ### Communication et Repérage
-- [ ] Recevoir les positions (X, Y) des palets envoyées par la caméra.
+- [ ] Recevoir la distance des palets envoyées par la caméra.
 - [ ] Calculer le chemin pour se rendre jusqu'au palet ciblé.
 
 ## 🧠 Stratégie et Gestion des Imprévus
