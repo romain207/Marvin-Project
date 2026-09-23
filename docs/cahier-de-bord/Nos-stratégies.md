@@ -17,14 +17,14 @@
 ## 🧠 Stratégie et Gestion des Imprévus
 
 ### Stratégie Générale:
-- [ ] **Priorité de ramassage :** Quelle est notre stratégie principale (ex : viser d'abord les palets les plus proches, ou suivre un ordre précis) ?
-  > **Décision :**
+- [ ] **Priorité de ramassage :** Quelle est notre stratégie principale ?
+  > **Décision :** viser les palets les plus proches
 - [ ] **Fin de mission :** Comment le robot sait-il qu'il a terminé sa mission ou que le temps est écoulé ?
-  > **Décision :**
+  > **Décision :** fonction pour qu'il tourne le programme pendant 5 minutes
 
 ### Gestion des Adversaires et des Obstacles
 - [ ] **Face-à-face :** Que doit faire le robot s'il se trouve bloqué juste devant un autre robot ?
-  > **Décision :**
+  > **Décision :** 
 - [ ] **Esquive :** Comment doit-il réagir de manière générale s'il détecte un autre robot sur son chemin (le contourner, attendre, reculer) ?
   > **Décision :** 
 - [ ] **Palet volé :** Que faire s'il arrive à l'emplacement d'un palet, mais qu'un robot adverse vient de le prendre juste avant lui ?
