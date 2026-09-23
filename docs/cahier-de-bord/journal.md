@@ -1,4 +1,4 @@
-⁶## Semaine 1
+## Semaine 1
 Présentation de Pix et première configuration
 
 ## Semaine 2
