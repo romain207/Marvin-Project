@@ -1,3 +1,4 @@
+```java
 // Test incomplet pour attraper un palet 
 
 import lejos.hardware.motor.EV3MediumRegulatedMotor;
@@ -25,5 +26,6 @@ public class MouvPince extends java.lang.Object {
 		
 	}
 
+```
 }
 
