@@ -1,4 +1,4 @@
-## Semaine 1
+⁶## Semaine 1
 Présentation de Pix et première configuration
 
 ## Semaine 2
@@ -18,4 +18,5 @@ branches "cahier-des-charges" et "cahier-de-bord" (supprimées suite au regroupe
 - capteur lumière: reconnait les couleurs du terrain (rouge, jaune, vert, blanc, noir, bleu)
 - les pinces: problème de fermeture (pour l'instant)
 - modification de Github (réorganisation des dossiers)
+- on estime que PIX parcours 55.5 cm en 1 seconde.
 
