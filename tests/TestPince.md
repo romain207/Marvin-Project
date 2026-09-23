@@ -25,6 +25,18 @@ public class MouvPince extends java.lang.Object {
 		pince.stop();       
 		
 	}
+public static void main(String[] args) {
+Mouvements mouvR = new Mouvements();
+		MouvPince mouvP = new MouvPince();
+		
+		mouvR.avancer();
+		Delay.msDelay(216); 
+		//mouv.arret();// on fait une pause dans le programme pour que le robot puisse avancer
+		//mouv.tournerAgauche();
+		mouvP.ouvrirPince();
+		mouvP.fermerPince();
+		mouvP.stop();
+}
 
 }
 ```
