@@ -18,5 +18,5 @@ branches "cahier-des-charges" et "cahier-de-bord" (supprimées suite au regroupe
 - capteur lumière: reconnait les couleurs du terrain (rouge, jaune, vert, blanc, noir, bleu)
 - les pinces: problème de fermeture (pour l'instant)
 - modification de Github (réorganisation des dossiers)
-- on estime que PIX parcours 55.5 cm en 1 seconde.
-
+- on estime que PIX parcours 55.5 cm en 1 seconde (mesure imprécise, la vitesse de PIX est mesuré en (°/s)il faudra effectuer de nouvelle mesure et convertir pour obtenir des (cm/s)(La formule de conversion est :Vitesse(cm/s)=Vitesse angulaire(°/s)*(pi/180)*Rayon(cm))).
+- 1ère réussite de saisie de palet de PIX , on observe cependant des complications(vélocité mal géré et interprété , décalage par rapport à un axe donné du aux frottements des roues) lorsque l'on essaye à plus grande vitesse aussi bien pour les pinces que pour les roues.
