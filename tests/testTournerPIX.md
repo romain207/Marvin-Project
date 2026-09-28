@@ -30,7 +30,7 @@ public void tournerAgauche() {
 
 public static void main(String[] args) {
 
-Mouvements mouv = new Mouvements();
+Tourner mouv = new Tourner();
 mouv.tournerAgauche();
 	}
 }
