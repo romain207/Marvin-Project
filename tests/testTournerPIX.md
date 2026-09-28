@@ -16,6 +16,27 @@ public class Tourner {
 		roueD= new EV3LargeRegulatedMotor(MotorPort.C); 
 	}
 
+// methode pour avancer
+public void avancer() {
+		roueG.setSpeed(200); // vitesse du moteur
+		roueD.setSpeed(200);
+		roueG.forward(); // je dis à mes roues d'avancer
+		roueD.forward(); 
+	}
+
+// methode pour reculer
+public void reculer() {
+		roueG.setSpeed(200);
+		roueD.setSpeed(200);
+		roueG.backward(); 
+		roueD.backward();
+	}
+
+public void arret() {
+		roueG.stop();
+		roueD.stop();
+	}
+
 // méthode pour tourner à droite
 public void tournerAdroite() {
 		roueG.rotate(840, true); 
