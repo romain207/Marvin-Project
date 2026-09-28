@@ -22,3 +22,9 @@ branches "cahier-des-charges" et "cahier-de-bord" (supprimées suite au regroupe
 - 1ère réussite de saisie de palet de PIX , on observe cependant des complications(vélocité mal géré et interprété , décalage par rapport à un axe donné du aux frottements des roues) lorsque l'on essaye à plus grande vitesse aussi bien pour les pinces que pour les roues.
 
 - Pour plus de détails voir avec Aniati.
+
+## Semaine 4
+
+Vitesse max estimée de PIX ≃67.1611111111 cm/s
+
+
