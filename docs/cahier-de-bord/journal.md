@@ -24,7 +24,12 @@ branches "cahier-des-charges" et "cahier-de-bord" (supprimées suite au regroupe
 - Pour plus de détails voir avec Aniati.
 
 ## Semaine 4
-Diamètre d'une roue = 55 mm
-Vitesse max estimée de PIX ≃33.5975881 cm/s
+- Diamètre d'une roue = 55 mm
+- Vitesse max estimée de PIX ≃33.5975881 cm/s
+- ouverture et fermeture des pinces opérationnel
+- PIX peut attraper un palet et avancer avec
+- remise en forme des fonctionnalités du cahier des charges (détails avec Tanis)
+- test du capteur ultrasons avec retour d'une seule valeur mesuré à un instant t
+- beaucoup bcp de discussions
 
 
