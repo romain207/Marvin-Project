@@ -14,10 +14,10 @@ public class Perception {
 	// capteurs 2 c'est le tactile des qu'il tape sur le bouton rouge
 	// capteurs ultrasons exemple objet à 34,5 cm
 
-	public Perception() {
+	public Perception() { 
 		detection= new EV3UltrasonicSensor(SensorPort.S1);
-		detec= detection.getDistanceMode();
-		tab = new float[detec.sampleSize()];
+		detec= detection.getDistanceMode(); // recupere la valeur
+		tab = new float[detec.sampleSize()]; // le met dan sun tableau en fonction du nombre d'element a mettre (sampleSize)
 	}
 	
 	public void allumer() {
@@ -25,7 +25,7 @@ public class Perception {
 	}
 	
 	public void mesurer() {
-		detec.fetchSample(tab, 0);
+		detec.fetchSample(tab, 0); // mesure à un moment précis
 		LCD.drawString(String.valueOf(tab[0]), 0, 4);
 	}
 
@@ -35,7 +35,7 @@ Perception percept = new Perception();
 		percept.mesurer();
 		Delay.msDelay(5000);
 
-  LCD.clear();
+  		LCD.clear();
 		LCD.drawString("Fin du test", 0, 4);
 		Delay.msDelay(1000);
 	}
