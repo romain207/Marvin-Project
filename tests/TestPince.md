@@ -30,7 +30,8 @@ Mouvements mouvR = new Mouvements();
 		MouvPince mouvP = new MouvPince();
 		
 		mouvR.avancer();
-		Delay.msDelay(216); 
+		Delay.msDelay(216);
+		mouvR.arret(); // arreter les roues pour executer l'action suivante
 		//mouv.arret();// on fait une pause dans le programme pour que le robot puisse avancer
 		//mouv.tournerAgauche();
 		mouvP.ouvrirPince();
