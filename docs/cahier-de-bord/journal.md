@@ -24,7 +24,7 @@ branches "cahier-des-charges" et "cahier-de-bord" (supprimées suite au regroupe
 - Pour plus de détails voir avec Aniati.
 
 ## Semaine 4
-
-Vitesse max estimée de PIX ≃67.1611111111 cm/s
+Diamètre d'une roue = 55 mm
+Vitesse max estimée de PIX ≃33.5975881 cm/s
 
 
