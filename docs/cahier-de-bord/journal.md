@@ -43,5 +43,5 @@ branches "cahier-des-charges" et "cahier-de-bord" (supprimées suite au regroupe
 - test du capteur ultrasons avec retour d'une seule valeur mesuré à un instant t
 - beaucoup bcp de discussions ;)
 - Dépot de la première version du plan de développement
-
+-retrait de la toute première version du cahier des charges(il ne servait plus à rien)
 
