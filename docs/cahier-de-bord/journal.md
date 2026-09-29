@@ -42,5 +42,6 @@ branches "cahier-des-charges" et "cahier-de-bord" (supprimées suite au regroupe
 - remise en forme des fonctionnalités du cahier des charges (détails avec Tanis)
 - test du capteur ultrasons avec retour d'une seule valeur mesuré à un instant t
 - beaucoup bcp de discussions ;)
+- Dépot de la première version du plan de développement
 
 
