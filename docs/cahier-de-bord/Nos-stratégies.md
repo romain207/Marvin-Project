@@ -6,7 +6,7 @@
 
 ### Interaction avec les palets
 - [ ] Détecter la présence d'un palet devant le robot.
-- [ ] Ouvrir et fermer la pince pour attraper le palet.
+- [X] Ouvrir et fermer la pince pour attraper le palet.
 - [ ] Sécuriser le palet pour le transporter.
 - [ ] Déposer proprement le palet dans la zone d'arrivée.
 
