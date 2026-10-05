@@ -45,3 +45,12 @@ branches "cahier-des-charges" et "cahier-de-bord" (supprimées suite au regroupe
 - Dépot de la première version du plan de développement
 -retrait de la toute première version du cahier des charges(il ne servait plus à rien)
 
+## Semaine 5
+- Modification du plan de développement (ajout des taches axiomatiques, pour fixer une estimation temporelle plus efficacement)
+- 
+
+
+
+
+
+  ##
