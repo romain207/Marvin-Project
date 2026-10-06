@@ -47,7 +47,10 @@ branches "cahier-des-charges" et "cahier-de-bord" (supprimées suite au regroupe
 
 ## Semaine 5
 - Modification du plan de développement (ajout des taches modulaire, pour fixer une estimation temporelle plus efficacement)
-- 
+-  Définition de méthode pour récupérer les valeurs renvoyés par le capteur ultrason
+-  Révision quant à la définition du capteur couleur voir avec Ekoumi(passage de colorId à getmodeRGB)
+-  Passage à la classe pilot pour les mouvements
+
 
 
 
