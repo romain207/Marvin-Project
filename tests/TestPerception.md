@@ -1,6 +1,9 @@
 ```java
+import lejos.hardware.port.SensorPort;
+import lejos.hardware.sensor.EV3ColorSensor;
+import lejos.hardware.sensor.EV3UltrasonicSensor;
+import lejos.robotic.SampleProvider
 
-// faire les imports
 public class Perception extends Mouvements{
 	
 	private EV3UltrasonicSensor detection; 
