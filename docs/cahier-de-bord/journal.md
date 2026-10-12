@@ -51,6 +51,7 @@ branches "cahier-des-charges" et "cahier-de-bord" (supprimées suite au regroupe
 -  Révision quant à la définition du capteur couleur voir avec Ekoumi(passage de colorId à getmodeRGB)
 -  Passage à la classe pilot pour les mouvements
 
+## Semaine 6
 
 
 
