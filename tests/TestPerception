@@ -1,0 +1,87 @@
+
+// faire les imports
+public class Perception extends Mouvements{
+	
+	private EV3UltrasonicSensor detection; 
+	private  EV3ColorSensor couleur;
+	private float [] tab;
+	private float [] valLum;
+	SampleProvider detec;
+	SampleProvider modeLumiereRGB;
+	// les ultarasons peuvent detecter d'autres ultrasons aux alentours
+	// capteurs 4 c'est les couleurs
+	// capteurs 1 c'est ultrasons
+	// capteurs 2 c'est le tactile des qu'il tape sur le bouton rouge
+	// capteurs ultrasons exemple objet à 34,5 cm
+
+	public Perception() {
+		// capteur ultrason
+		detection= new EV3UltrasonicSensor(SensorPort.S1);
+		detec= detection.getDistanceMode();
+		tab = new float[detec.sampleSize()];
+		
+		// capteur couleur
+		couleur= new EV3ColorSensor (SensorPort.S4);
+		modeLumiereRGB= couleur.getRGBMode();
+		valLum = new float[modeLumiereRGB.sampleSize()];
+		
+	}
+	
+	public void allumer() {
+		detection.enable();
+	}
+	
+	public float mesurer() {
+		detec.fetchSample(tab, 0);
+		//LCD.drawString(String.valueOf(tab[0]), 0, 4);
+		return (tab[0]);
+	}
+	
+	public float lireIntensite() {
+		modeLumiereRGB.fetchSample(valLum, 0); 
+		return (valLum[0]); 
+	}  
+	
+	public String identification() {
+		modeLumiereRGB.fetchSample(valLum, 0);
+		float red = valLum[0];
+		float green = valLum[1];
+		float blue = valLum[2];
+		
+		// Détection du BLANC (la lumière se réfléchit au maximum, toutes les valeurs sont hautes)
+	    if (red > 0.7f && green > 0.7f && blue > 0.7f) {
+	        return "Blanc";
+	    }
+	    // Détection du NOIR (la lumière est absorbée, toutes les valeurs sont basses)
+	    else if (red < 0.2f && green < 0.2f && blue < 0.2f) {
+	        return "Noir";
+	    }
+	    // Détection du ROUGE (Rouge fort, Vert et Bleu faibles)
+	    else if (red > 0.5f && green < 0.3f && blue < 0.3f) {
+	        return "Rouge";
+	    }
+	    // Détection du VERT (Vert fort, Rouge et Bleu faibles)
+	    else if (green > 0.5f && red < 0.3f && blue < 0.3f) {
+	        return "Vert";
+	    }
+	    // Détection du BLEU (Bleu fort, Rouge et Vert faibles)
+	    else if (blue > 0.5f && red < 0.3f && green < 0.3f) {
+	        return "Bleu";
+	    }
+	    // Détection du JAUNE (Mélange de Rouge et de Vert, Bleu faible)
+	    else if (red > 0.5f && green > 0.5f && blue < 0.3f) {
+	        return "Jaune";
+	    }
+	    // Détection du GRIS (Toutes les valeurs sont moyennes)
+	    else if (red >= 0.2f && red <= 0.6f && green >= 0.2f && green <= 0.6f && blue >= 0.2f && blue <= 0.6f) {
+	        return "Gris";
+	    }
+	    // Sécurité : si la couleur n'est pas franche
+	    else {
+	        return "Inconnu";
+	    }
+		
+	}
+	
+}
+
