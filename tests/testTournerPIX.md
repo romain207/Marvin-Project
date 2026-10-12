@@ -51,6 +51,73 @@ public void tournerAgauche() {
 
 public static void main(String[] args) {
 
+
+
+
+//
+
+package projetIA;
+
+import lejos.robotics.navigation.DifferentialPilot;
+import lejos.hardware.motor.EV3LargeRegulatedMotor;
+import lejos.hardware.port.MotorPort;
+
+public class Tourner {
+
+	private DifferentialPilot pilot;
+
+	public void avancer() {
+		pilot.forward();
+		/*roueG.setSpeed(200); 
+		roueD.setSpeed(200); 
+		roueG.forward(); 
+		roueD.forward();*/ 
+	}
+
+	public void reculer() {
+		pilot.backward();
+		/*roueG.setSpeed(200); 
+		roueD.setSpeed(200); 
+		roueG.backward(); 
+		roueD.backward();*/ 
+	}
+
+	public void arret() {
+		pilot.stop();
+		/*roueG.stop(); 
+		roueD.stop();*/ 
+	}
+
+	/**
+	 * Démarre la rotation en arrière-plan sans bloquer l'exécution du code.
+	 */
+	public void tourCompletG() {
+		pilot.rotate(-360,true);
+		/*roueG.setSpeed(150);
+		roueD.setSpeed(150);
+		roueG.rotate(-angle, true); 
+		roueD.rotate(angle, true);*/
+	}
+	public void tourCompletD() {
+		pilot.rotate(360,true);
+		/*roueG.setSpeed(150);
+		roueD.setSpeed(150);
+		roueG.rotate(-angle, true); 
+		roueD.rotate(angle, true);*/
+	}
+
+	public void tournerAngle(int angle) {
+		pilot.rotate(angle,true);
+	}
+	/**
+	 * Renvoie true TANT QUE les roues sont en mouvement.
+	 */
+	public boolean estEnMouvement() {
+		return pilot.isMoving();
+	}
+}
+
+
 Tourner mouv = new Tourner();
 mouv.tournerAgauche();
 	}
