@@ -52,6 +52,8 @@ branches "cahier-des-charges" et "cahier-de-bord" (supprimées suite au regroupe
 -  Passage à la classe pilot pour les mouvements
 
 ## Semaine 6
+- Tests du capteurs ultrason
+- Détection des palets en effectuant un 360
 
 
 
