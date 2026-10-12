@@ -5,13 +5,13 @@
 - [ ] Programmer le suivi de la ligne au sol.
 
 ### Interaction avec les palets
-- [ ] Détecter la présence d'un palet devant le robot.
+- [X] Détecter la présence d'un palet devant le robot.
 - [X] Ouvrir et fermer la pince pour attraper le palet.
 - [ ] Sécuriser le palet pour le transporter.
 - [ ] Déposer proprement le palet dans la zone d'arrivée.
 
 ### Communication et Repérage
-- [ ] Recevoir la distance des palets envoyées par la caméra.
+- [X] Recevoir la distance des palets envoyées par la caméra.
 - [ ] Calculer le chemin pour se rendre jusqu'au palet ciblé.
 
 ## 🧠 Stratégie et Gestion des Imprévus
