@@ -20,9 +20,9 @@ Centralisation des documents internes présents sur les autres branches dans le 
 branches "cahier-des-charges" et "cahier-de-bord" (supprimées suite au regroupement).
 
 **Observations du jour** : 
--angle de rotation de PIX: tour complet: angle 840° (en degrés de PIX ),
--La deuxème roue était branchée sur le mauvais moteur, tout est réaligné
--Le tachymètre marche en ouverture mais pas en fermeture, les angles renvoyé sont différents, résultats tachymètre inutilisable pour les pinces.
+- angle de rotation de PIX: tour complet: angle 840° (en degrés de PIX ),
+- La deuxième roue était branchée sur le mauvais moteur, tout est réaligné
+- Le tachymètre marche en ouverture mais pas en fermeture, les angles renvoyés sont différents, résultats du tachymètre inutilisable pour les pinces.
 
 - découverte de nouvelles stratégies pour récupérer au plus vite les premiers palets, particulièrement le premier (mise en place d'un circuit prédéfini pour les premiers palets)
 - capteurs ultrasons: fonctionne et renvoie une série de valeur
@@ -32,30 +32,31 @@ branches "cahier-des-charges" et "cahier-de-bord" (supprimées suite au regroupe
 - on estime que PIX parcours 55.5 cm en 1 seconde (mesure imprécise, la vitesse de PIX est mesuré en (°/s)il faudra effectuer de nouvelle mesure et convertir pour obtenir des (cm/s)(La formule de conversion est :Vitesse(cm/s)=Vitesse angulaire(°/s)*(pi/180)*Rayon(cm))).
 - 1ère réussite de saisie de palet de PIX , on observe cependant des complications(vélocité mal géré et interprété , décalage par rapport à un axe donné du aux frottements des roues) lorsque l'on essaye à plus grande vitesse aussi bien pour les pinces que pour les roues.
 
-- Pour plus de détails voir avec Aniati.
-
 ## Semaine 4
 - Diamètre d'une roue = 55 mm
 - Vitesse max estimée de PIX ≃33.5975881 cm/s
-- ouverture et fermeture des pinces opérationnelle
+- Ouverture et fermeture des pinces : opérationnel
 - PIX peut attraper un palet et avancer avec
-- remise en forme des fonctionnalités du cahier des charges (détails avec Tanis)
-- test du capteur ultrasons avec retour d'une seule valeur mesuré à un instant t
-- beaucoup bcp de discussions ;)
+- Remise en forme des fonctionnalités du cahier des charges (détails avec Tanis)
+- Test du capteur ultrasons avec retour d'une seule valeur mesuré à un instant t
 - Dépot de la première version du plan de développement
--retrait de la toute première version du cahier des charges(il ne servait plus à rien)
+- Retrait de la toute première version du cahier des charges(il ne servait plus à rien)
 
 ## Semaine 5
 - Modification du plan de développement (ajout des taches modulaire, pour fixer une estimation temporelle plus efficacement)
 -  Définition de méthode pour récupérer les valeurs renvoyés par le capteur ultrason
--  Révision quant à la définition du capteur couleur voir avec Ekoumi(passage de colorId à getmodeRGB)
+-  Révision quant à la définition du capteur couleur, voir avec Ekoumi(passage de colorId à getmodeRGB)
 -  Passage à la classe pilot pour les mouvements
 
 ## Semaine 6
 - Tests du capteurs ultrason
 - Détection des palets en effectuant un 360
 
-
+## Semaine 7
+- Tests concluants des tâches suivantes : Relâcher le palet dans la zone de départ, Déclencher une alerte si la distance mesurée est < Xcm.
+- Après discussion, changement de méthode pour détecter les palets : nous optons pour une méthode plus efficace et beaucoup plus rapide.
+- Nouvelles stratégies pour la course
+- Prise en considération des méthodes à coder pour ces nouvelles stratégies (déplacement, utilisation des données)
 
 
 
