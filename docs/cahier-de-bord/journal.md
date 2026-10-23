@@ -53,7 +53,7 @@ branches "cahier-des-charges" et "cahier-de-bord" (supprimées suite au regroupe
 - Détection des palets en effectuant un 360
 
 ## Semaine 7
-- Tests concluants des tâches suivantes : Relâcher le palet dans la zone de départ, Déclencher une alerte si la distance mesurée est < Xcm.
+- Tests concluants des tâches suivantes : Relâcher le palet dans la zone de départ(à revoir car méthode reconnaissance couleur inachevé), Déclencher une alerte si la distance mesurée est < Xcm.
 - Après discussion, changement de méthode pour détecter les palets : nous optons pour une méthode plus efficace et beaucoup plus rapide.
 - Nouvelles stratégies pour la course
 - Prise en considération des méthodes à coder pour ces nouvelles stratégies (déplacement, utilisation des données)
