@@ -59,5 +59,7 @@ branches "cahier-des-charges" et "cahier-de-bord" (supprimées suite au regroupe
 - Prise en considération des méthodes à coder pour ces nouvelles stratégies (déplacement, utilisation des données)
 
 
-
-  ##
+## Semaine 8
+- méthode d'identification couleur pas utile d'apres prof alternative: utiliser l'exploitation des données pendant un tour complet pour détecter un palet et calculer l'angle en fonction du nombre de données pour se retrouver devant le palet
+- caméra zénithale à revoir
+- ....
