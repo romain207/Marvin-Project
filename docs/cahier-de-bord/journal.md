@@ -58,8 +58,13 @@ branches "cahier-des-charges" et "cahier-de-bord" (supprimées suite au regroupe
 - Nouvelles stratégies pour la course
 - Prise en considération des méthodes à coder pour ces nouvelles stratégies (déplacement, utilisation des données)
 
-
 ## Semaine 8
 - méthode d'identification couleur pas utile d'apres prof alternative: utiliser l'exploitation des données pendant un tour complet pour détecter un palet et calculer l'angle en fonction du nombre de données pour se retrouver devant le palet
 - caméra zénithale à revoir
-- rajout de deux nouvelles taches 
+- rajout de deux nouvelles taches
+
+## Semaine 9
+- mission n°1: faire tour complet (360 donc 420 pour le robot) et analyser le terrain [X]
+- mission n°2: extraire les données renvoyé par le robot [X]
+- mission n°3: identifier un palet et calculer l'angle pour se trouver devant ce palet []
+- mission n°4: avancer vers le palet et l'attraper [X]
