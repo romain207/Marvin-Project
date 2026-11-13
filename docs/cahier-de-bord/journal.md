@@ -68,3 +68,4 @@ branches "cahier-des-charges" et "cahier-de-bord" (supprimées suite au regroupe
 - mission n°2: extraire les données renvoyé par le robot [X]
 - mission n°3: identifier un palet et calculer l'angle pour se trouver devant ce palet []
 - mission n°4: avancer vers le palet et l'attraper [X]
+- 
