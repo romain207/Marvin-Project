@@ -66,6 +66,10 @@ branches "cahier-des-charges" et "cahier-de-bord" (supprimées suite au regroupe
 ## Semaine 9
 - mission n°1: faire tour complet (360 donc 420 pour le robot) et analyser le terrain [X]
 - mission n°2: extraire les données renvoyé par le robot [X]
-- mission n°3: identifier un palet et calculer l'angle pour se trouver devant ce palet []
+- mission n°3: identifier un palet et calculer l'angle pour se trouver devant ce palet [X]
 - mission n°4: avancer vers le palet et l'attraper [X]
-- 
+
+## Semaine 10
+- amelioration de la methode pour viser palet et l'attraper
+- mise en place d'une boussole permettant au robot de savoir ou il est et pouvoir se diriger vers la zone d'en but pour deposer le palet peut importe ou il se trouve sur le terrain
+- debut de réflexion sur quelle strategie mettre en place pour la phase de qualification ou l'on doit attraper le plus de palet possible en 2min30
